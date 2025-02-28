@@ -1,7 +1,7 @@
 import json
 import requests
 
-class Ingestiones: 
+class Actividad1: 
     def __init__(self):
         self.ruta_static = "src/pad/static/"  
 
@@ -13,7 +13,7 @@ class Ingestiones:
         pass  
 
 # crear instancia de clase Ingestiones 
-ingestion = Ingestiones()
+ingestion = Actividad1()
 
 # URL de API que no necesita autenticación 
 url_api = "https://restcountries.com/v3.1/all"  
