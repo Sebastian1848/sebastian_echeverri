@@ -1,4 +1,4 @@
-from setuptools import setup, findpackages
+from setuptools import setup, find_packages
 
 setup(
     name="pad",
@@ -6,11 +6,12 @@ setup(
     author="SEbastián Echeverri",
     author_email="",
     description="",
-    py_modules=["actividad_1"],
+    packages=find_packages(),
     install_requires=[
         "pandas",
-        "matplotlib"
-        "requests" 
+        "matplotlib",
+        "requests",
+        "satuptools"
     ]
     
 )
